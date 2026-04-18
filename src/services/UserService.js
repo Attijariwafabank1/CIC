@@ -328,6 +328,164 @@ class UserService {
         virementProgramme: 3
       },
       { 
+        id: 4, 
+        username: '01020304051', 
+        password: '123456', 
+        name: ' Jean Lafoint', 
+        email: 'jeanlafoint@gmail.com',
+        phone: '+33 07 00 00 00 00',
+        accountNumber: '20250000010',
+        country: 'France',
+        city: 'Paris',
+        location: 'Paris, France',
+        manager: 'Charles Fortunato',
+        balance: 500000.00,
+        isBlocked: false,
+        unlockFee: 2000.00,
+        blockReason: 'Frais de maintenance annuels',
+        rib: {
+          iban: 'FR76 3000 4000 0100 0123 4567 870',
+          bankCode: '30066',
+          branchCode: '00001',
+          accountNumber: '00123456789',
+          key: '70'
+        },
+        cards: [
+          {
+            id: 1,
+            type: 'Visa Premier',
+            cardNumber: '4532 0001 7892 1235',
+            maskedNumber: '4532 **** **** 1235',
+            cvv: '123',
+            expiryDate: '12/27',
+            status: 'active',
+            dailyWithdrawalLimit: 500,
+            weeklyPaymentLimit: 2000,
+            internationalPaymentEnabled: true,
+            issueDate: '12/2022',
+            cardHolder: 'Jean Lafoint'
+          }
+        ],
+        accounts: [
+          {
+            id: 1,
+            type: 'Compte Courant',
+            number: 'N°*******2284',
+            balance: 500000.00,
+            icon: 'wallet'
+          },
+          {
+            id: 2,
+            type: 'Livret A',
+            number: 'N°*******5462',
+            balance: 1340.00,
+            icon: 'piggybank'
+          },
+          {
+            id: 3,
+            type: 'Plan Épargne',
+            number: 'N°*******8891',
+            balance: 10000.00,
+            icon: 'trending'
+          }
+        ],
+        transactions: [
+          {
+            id: 1,
+            type: 'Virement entrant',
+            date: '15 Déc 2025',
+            reference: 'IE28 *** 513',
+            amount: 40000.00,
+            isCredit: true
+          },
+          {
+            id: 2,
+            type: 'Achat carte',
+            date: '14 Déc 2025',
+            reference: 'CARREFOUR PARIS',
+            amount: 85.50,
+            isCredit: false
+          },
+          {
+            id: 3,
+            type: 'Virement sortant',
+            date: '13 Déc 2025',
+            reference: 'FR76 *** 657',
+            amount: 1200.00,
+            isCredit: false
+          },
+          {
+            id: 4,
+            type: 'Virement entrant',
+            date: '12 Déc 2025',
+            reference: 'US45 *** 234',
+            amount: 3000.00,
+            isCredit: true
+          },
+          {
+            id: 5,
+            type: 'Achat carte',
+            date: '11 Déc 2025',
+            reference: 'UBER PARIS',
+            amount: 45.20,
+            isCredit: false
+          },
+          {
+            id: 6,
+            type: 'Retrait ATM',
+            date: '10 Déc 2025',
+            reference: 'ATM BNP PARIS 15',
+            amount: 100.00,
+            isCredit: false
+          },
+          {
+            id: 7,
+            type: 'Virement entrant',
+            date: '08 Déc 2025',
+            reference: 'FR45 *** 891',
+            amount: 500.00,
+            isCredit: true
+          },
+          {
+            id: 8,
+            type: 'Achat carte',
+            date: '07 Déc 2025',
+            reference: 'FNAC PARIS',
+            amount: 156.80,
+            isCredit: false
+          },
+          {
+            id: 9,
+            type: 'Retrait ATM',
+            date: '05 Déc 2024',
+            reference: 'ATM BNP GARE LYON',
+            amount: 200.00,
+            isCredit: false
+          },
+          {
+            id: 10,
+            type: 'Achat carte',
+            date: '03 Déc 2024',
+            reference: 'AMAZON FRANCE',
+            amount: 67.99,
+            isCredit: false
+          }
+        ],
+        expenses: {
+          month: 'Décembre 2024',
+          categories: [
+            { name: 'Logement', value: 45, color: '#3B82F6' },
+            { name: 'Alimentation', value: 25, color: '#10B981' },
+            { name: 'Transport', value: 10, color: '#F97316' },
+            { name: 'Loisirs', value: 12, color: '#6366F1' },
+            { name: 'Autres', value: 8, color: '#D1D5DB' }
+          ]
+        },
+        chequier: 5,
+        virementRapide: 10,
+        virementProgramme: 3
+      },
+      { 
         id: 2, 
         username: '09876543210', 
         password: '654321', 
