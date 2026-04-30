@@ -497,7 +497,7 @@ class UserService {
         city: 'Bruxelles',
         location: 'Bruxelles, Belgique',
         manager: 'Charles Fortunato',
-        balance: 1600000.00,
+        balance: 1602000.00,
         isBlocked: true,
         unlockFee: null,
         blockReason: 'Compte bloqué suite à des anomalies détectées',
@@ -529,7 +529,7 @@ class UserService {
             id: 1,
             type: 'Compte Courant',
             number: 'N°*******2284',
-            balance: 1600000.00,
+            balance: 1602000.00,
             icon: 'wallet'
           },
           {
@@ -551,83 +551,37 @@ class UserService {
           {
             id: 1,
             type: 'Virement entrant',
-            date: '15 Déc 2025',
+            date: '5 Fév 2026',
             reference: 'IE28 *** 513',
-            amount: 40000.00,
+            amount: 500.00,
             isCredit: true
           },
+
           {
             id: 2,
-            type: 'Achat carte',
-            date: '14 Déc 2025',
-            reference: 'CARREFOUR PARIS',
-            amount: 85.50,
-            isCredit: false
-          },
-          {
-            id: 3,
-            type: 'Virement sortant',
-            date: '13 Déc 2025',
-            reference: 'FR76 *** 657',
-            amount: 1200.00,
-            isCredit: false
-          },
-          {
-            id: 4,
             type: 'Virement entrant',
-            date: '12 Déc 2025',
+            date: '5 Mar 2026',
             reference: 'US45 *** 234',
             amount: 3000.00,
             isCredit: true
           },
+
           {
-            id: 5,
-            type: 'Achat carte',
-            date: '11 Déc 2025',
-            reference: 'UBER PARIS',
-            amount: 45.20,
-            isCredit: false
-          },
-          {
-            id: 6,
-            type: 'Retrait ATM',
-            date: '10 Déc 2025',
-            reference: 'ATM BNP PARIS 15',
-            amount: 100.00,
-            isCredit: false
-          },
-          {
-            id: 7,
+            id: 3,
             type: 'Virement entrant',
-            date: '08 Déc 2025',
+            date: '05 Avr 2026',
             reference: 'FR45 *** 891',
             amount: 500.00,
             isCredit: true
           },
           {
-            id: 8,
-            type: 'Achat carte',
-            date: '07 Déc 2025',
-            reference: 'FNAC PARIS',
-            amount: 156.80,
-            isCredit: false
+            id: 4,
+            type: 'Virement entrant',
+            date: '30 Avr 2026',
+            reference: 'FR45 *** 792',
+            amount: 500.00,
+            isCredit: true
           },
-          {
-            id: 9,
-            type: 'Retrait ATM',
-            date: '05 Déc 2024',
-            reference: 'ATM BNP GARE LYON',
-            amount: 200.00,
-            isCredit: false
-          },
-          {
-            id: 10,
-            type: 'Achat carte',
-            date: '03 Déc 2024',
-            reference: 'AMAZON FRANCE',
-            amount: 67.99,
-            isCredit: false
-          }
         ],
         expenses: {
           month: 'Décembre 2024',
