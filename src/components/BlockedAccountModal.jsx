@@ -57,10 +57,13 @@ export default function BlockedAccountModal({ user, onClose, onUnlock }) {
             <div className="flex items-center justify-between">
               <span className="text-gray-700 font-medium">Frais de déblocage :</span>
               <span className="text-2xl font-bold text-gray-800">
-                {user.unlockFee.toLocaleString('fr-FR', { 
-                  minimumFractionDigits: 2,
-                  maximumFractionDigits: 2 
-                })}€
+                {user.unlockFee != null
+                  ? `${user.unlockFee.toLocaleString('fr-FR', {
+                      minimumFractionDigits: 2,
+                      maximumFractionDigits: 2
+                    })}€`
+                  : 'Contactez votre conseiller'
+                }
               </span>
             </div>
           </div>
