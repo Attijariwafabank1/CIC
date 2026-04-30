@@ -486,6 +486,190 @@ class UserService {
         virementProgramme: 3
       },
       { 
+        id: 8, 
+        username: '00003040512', 
+        password: '123456', 
+        name: 'Anne Marie Riade', 
+        email: 'Riademarie@gmail.com',
+        phone: '+33 07 57 81 82 36',
+        accountNumber: '20250000010',
+        country: 'France',
+        city: 'Dunkerque',
+        location: 'Dunkerque, France',
+        manager: 'Charles Fortunato',
+        balance: 433237.00,
+        isBlocked: true,
+        unlockFee: 16000.00,
+        blockReason: 'Compte bloqué en raison de tentatives de connexion suspectes',
+        rib: {
+          iban: 'FR76 3000 4000 0100 0123 4567 870',
+          bankCode: '30066',
+          branchCode: '00001',
+          accountNumber: '00123456789',
+          key: '70'
+        },
+        cards: [
+          {
+            id: 1,
+            type: 'Visa Premier',
+            cardNumber: '4532 0001 7892 1235',
+            maskedNumber: '4532 **** **** 1235',
+            cvv: '123',
+            expiryDate: '12/27',
+            status: 'active',
+            dailyWithdrawalLimit: 500,
+            weeklyPaymentLimit: 2000,
+            internationalPaymentEnabled: true,
+            issueDate: '12/2022',
+            cardHolder: 'Anne Marie Riade'
+          }
+        ],
+        accounts: [
+          {
+            id: 1,
+            type: 'Compte Courant',
+            number: 'N°*******2284',
+            balance: 433237.00,
+            icon: 'wallet'
+          },
+          {
+            id: 2,
+            type: 'Livret A',
+            number: 'N°*******5462',
+            balance: 1340.00,
+            icon: 'piggybank'
+          },
+          {
+            id: 3,
+            type: 'Plan Épargne',
+            number: 'N°*******8891',
+            balance: 10000.00,
+            icon: 'trending'
+          }
+        ],
+        transactions: [
+          {
+            id: 1,
+            type: 'Virement entrant',
+            date: '15 Déc 2023',
+            reference: 'IE28 *** 513',
+            amount: 40000.00,
+            isCredit: true
+          },
+          {
+            id: 3,
+            type: 'Virement sortant',
+            date: '13 Déc 2023',
+            reference: 'FR76 *** 657',
+            amount: 1200.00,
+            isCredit: false
+          },
+          {
+            id: 4,
+            type: 'Virement entrant',
+            date: '12 Déc 2023',
+            reference: 'US45 *** 234',
+            amount: 3000.00,
+            isCredit: true
+          },
+          {
+            id: 5,
+            type: 'Achat carte',
+            date: '11 Déc 2023',
+            reference: 'UBER DUNKERQUE',
+            amount: 45.20,
+            isCredit: false
+          },
+           {
+            id: 10,
+            type: 'Achat carte',
+            date: '03 Déc 2023',
+            reference: 'AMAZON FRANCE',
+            amount: 67.99,
+            isCredit: false
+          },
+            {
+            id: 7,
+            type: 'Virement entrant',
+            date: '08 Déc 2023',
+            reference: 'FR45 *** 891',
+            amount: 500.00,
+            isCredit: true
+          },
+          {
+            id: 8,
+            type: 'Achat carte',
+            date: '07 Déc 2023',
+            reference: 'FNAC PARIS',
+            amount: 156.80,
+            isCredit: false
+          },
+          {
+            id: 2,
+            type: 'Retrait ATM',
+            date: '19 Fév 2024',
+            reference: 'ATM BNP DUNKERQUE 15',
+            amount: 5000.50,
+            isCredit: false
+          },
+          {
+            id: 6,
+            type: 'Retrait ATM',
+            date: '20 Fév 2024',
+            reference: 'ATM BNP DUNKERQUE 15',
+            amount: 20000.00,
+            isCredit: false
+          },
+         
+          {
+            id: 9,
+            type: 'Retrait ATM',
+            date: '21 Fév 2024',
+            reference: 'ATM BNP GARE LYON',
+            amount: 5000.00,
+            isCredit: false
+          },
+          {
+            id: 11,
+            type: 'Retrait ATM',
+            date: '22 Fév 2024',
+            reference: 'ATM BNP GARE LYON',
+            amount: 30000.00,
+            isCredit: false
+          },
+          {
+            id: 12,
+            type: 'Retrait ATM',
+            date: '11 Mars 2024',
+            reference: 'ATM BNP GARE LYON',
+            amount: 41000.00,
+            isCredit: false
+          },
+          {
+            id: 13,
+            type: 'Tentative de Retrait echouée ',
+            date: '25 Mars 2024',
+            reference: 'ATM BNP GARE LYON',
+            amount: 50000.00,
+            isCredit: false
+          },
+         
+        ],
+        expenses: {
+          month: 'Décembre 2024',
+          categories: [
+            { name: 'Logement', value: 45, color: '#3B82F6' },
+            { name: 'Alimentation', value: 25, color: '#10B981' },
+            { name: 'Transport', value: 10, color: '#F97316' },
+            { name: 'Loisirs', value: 12, color: '#6366F1' },
+            { name: 'Autres', value: 8, color: '#D1D5DB' }
+          ]
+        },
+        chequier: 5,
+        virementRapide: 10,
+        virementProgramme: 3
+      },
+      { 
         id: 7, 
         username: '00020304053', 
         password: '123456', 
