@@ -562,7 +562,7 @@ class UserService {
             type: 'Virement entrant',
             date: '5 Mar 2026',
             reference: 'US45 *** 234',
-            amount: 3000.00,
+            amount: 500.00,
             isCredit: true
           },
 
